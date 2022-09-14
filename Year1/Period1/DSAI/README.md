@@ -70,9 +70,36 @@ As a data scientist the best question you can ask yourself is **why**. -> *_Star
 - result of understanding information
 - information with direction or intent - it facilitates a decision or an action
 - *_Information put into action!_*
+
+### EXAM type exercise
+- Given the following situation:
+Parking sensors are proximity sensors for road vehicles designed to alert the driver of obstacles while parking.   
+
+> a. Explain how a measure of proximity between a road vehicle and an obstacle could be transformed from data into information and then into knowledge.   
+
+> b. Express the knowledge generated at the previous point into a rule which could be implemented into a knowledge-based system.  
+
+>> ad a. Data: measurments from the sensors (in meters for instance)  
+Information: If the distance is < 1m, send a signal to the alarm
+Knowledge: Alarm goes off alerting the driver   
+ad b. '''java
+int distance = sensor.read()
+if (distance < 1) {
+	alert()
+}
+
 --------------
 ### As a data scientist, your success is dependent on:
 > 1. Asking (yourself) the **right questions**
-> 1. Your ability to find the **right data** to collect.	
-
+> 1. Your ability to find the **right data** to collect.
+==IMPORTANT==
+- The methods, techniques, algorithms you are going to use depend on:
+	1. The (research) question you want to answer.
+	1. The data available to answer that question.
+	
+-------------
+### Exam checklist
+[] definition of data, information and knowledge
+[] link between them
+[] exercises of type above
 
