@@ -76,18 +76,19 @@ As a data scientist the best question you can ask yourself is **why**. -> *_Star
 Parking sensors are proximity sensors for road vehicles designed to alert the driver of obstacles while parking.   
 
 > a. Explain how a measure of proximity between a road vehicle and an obstacle could be transformed from data into information and then into knowledge.   
-
 > b. Express the knowledge generated at the previous point into a rule which could be implemented into a knowledge-based system.  
-
 >> ad a. Data: measurments from the sensors (in meters for instance)  
-Information: If the distance is < 1m, send a signal to the alarm
-Knowledge: Alarm goes off alerting the driver   
+  
+Information: If the distance is < 1m, send a signal to the alarm  
+
+Knowledge: Alarm goes off alerting the driver  
+   
 ad b. '''java
 int distance = sensor.read()
 if (distance < 1) {
 	alert()
 }
-
+'''
 --------------
 ### As a data scientist, your success is dependent on:
 > 1. Asking (yourself) the **right questions**
