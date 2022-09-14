@@ -107,7 +107,9 @@ b. Express the knowledge generated at the previous point into a rule which could
 	
 -------------
 ### Exam checklist
-[] definition of data, information and knowledge
-[] link between them
-[] exercises of type above
+[x] definition of data, information and knowledge
+
+[x] link between them
+
+[x] exercises of type above
 
