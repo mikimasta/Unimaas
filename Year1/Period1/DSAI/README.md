@@ -4,7 +4,7 @@
 ## **Lecture 1** (5.09.2022, Pietro)
 
 > #### *_Sciences are primarily defined by their questions, not by their tools!_*
->							*Christof Seiler*
+
 
 ### What is Data Science?
 - Sexiest job of the 21st century!
@@ -26,13 +26,14 @@
 -> Field of study which studies how to create computers and software that are capable of *_intelligent_* behaviour.
 
 ### Why.
-As a data scientist the best question you can ask yourself is **why**. -> *_Start with the questions, not the data!_*
-	- Why has this data been gathered?
-	- Why am i seeing this?
-	- Why is it visualised like this?
-	- Why do i see (or not see) patterns?
-	- What does this data represent?
-	- How can i make use of it?
+As a data scientist the best question you can ask yourself is **why**. -> *_Start with the questions, not the data!_*  
+
+- Why has this data been gathered?
+- Why am i seeing this?
+- Why is it visualised like this?
+- Why do i see (or not see) patterns?
+- What does this data represent?
+- How can i make use of it?
 ---------------------------------
 ### The Data Science Process
 1. **ASK** an interesting question.
