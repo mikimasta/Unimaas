@@ -16,8 +16,9 @@
 - Critical thinking
 - **_Asking questions!_**
 
-> Data Science is the discipline that describes, predicts, and makes causal inferences, based on data.
-> Data Science is the process of extracting knowledge or insights from data (structured or unstructured)
+> Data Science is the discipline that describes, predicts, and makes causal inferences, based on data.   
+
+> Data Science is the process of extracting knowledge or insights from data (structured or unstructured).
 >> **Data** -> **Information** -> **Knowledge**
 
 > #### *The value of data is in the impact they have on desision making!*
