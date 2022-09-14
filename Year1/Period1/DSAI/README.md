@@ -82,7 +82,7 @@ b. Express the knowledge generated at the previous point into a rule which could
 >
 > **Data**: measurments from the sensors (in meters for instance)  
 >  
-> **Information: If the distance is < 1m, send a signal to the alarm  
+> **Information**: If the distance is < 1 meter, send a signal to the alarm  
 >
 > **Knowledge**: Alarm goes off alerting the driver  
 >   
@@ -98,11 +98,12 @@ b. Express the knowledge generated at the previous point into a rule which could
 --------------
 ### As a data scientist, your success is dependent on:
 > 1. Asking (yourself) the **right questions**
-> 1. Your ability to find the **right data** to collect.
-==IMPORTANT==
-- The methods, techniques, algorithms you are going to use depend on:
-	1. The (research) question you want to answer.
-	1. The data available to answer that question.
+> 1. Your ability to find the **right data** to collect.   
+>
+> ==IMPORTANT==
+> - The methods, techniques, algorithms you are going to use depend on:
+> 	1. The (research) question you want to answer.
+>	1. The data available to answer that question.
 	
 -------------
 ### Exam checklist
