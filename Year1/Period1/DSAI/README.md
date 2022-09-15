@@ -255,5 +255,23 @@ The Turing test tests the ones in italics, and they are more important than thin
 
 ### Overfitting
 - Fitting model too complicated with respect to true model.
-- Easy to occur with high noise: the model starts describing the random error or noise in data instead of the underlying relationship - it starts to describe exceptions in the data (classification and the curse of dimensionality).
-![Overfitting](model.png)
+- Easy to occur with high noise: the model starts describing the random error or noise in data instead of the underlying relationship - it starts to describe exceptions in the data (classification and the curse of dimensionality).  
+
+> ![Overfitting](model.png)
+
+- Problem of overfitting: model too much dependent on the available observation
+- It becomes useless for predicion (highly inaccurate)
+
+> ![Overfitting2](model2.png)
+
+### Estimation and validation go together
+- A large enough model can reproduce a measured output arbitrarily well. We must verify that the model is relevant for other data - data that were not used for estimation (training the model), but were collected, but were gathered from the same system.
+
+> ![plot](plot.png)
+---
+### Exam checklist
+- Given the set of correlated var x and y, know hot wo compute the linear equation of the regression line through the data (y = ax + b)
+- Know how to solve exercises as the one given at the end of the lecture.
+
+
+
