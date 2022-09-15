@@ -201,7 +201,7 @@ The Turing test tests the ones in italics, and they are more important than thin
 | Psychology  | perception, motor control  |
 | CS  | programming, building fast computers  |
 | Control theory  | systems that maximize objective function over time  |
-| Linguistics  | knowledge representatiopn, grammar  |
+| Linguistics  | knowledge representation, grammar  |
 
 
 ### State of the Art
@@ -230,3 +230,27 @@ The Turing test tests the ones in italics, and they are more important than thin
 - Thinking/Acting  Humanly/Rationally
 - Examples of what current AI can/can't do
 ---
+# Lecture 6 (Data modelling - Linear Regression, Pietro)
+### Data modeling - mathematical modeling
+- A model is a mathematical representation of a system. An approximation of reality.
+- A system is a set of things working together as parts of a mechanism or network; a complex whole
+- Model can help people know, understand, or simulate a system the model represents.
+- A model may help to explain and make predictions (extrapulate) about the behaviour of a system.
+- **A model can be used to investigate how the real world works!**
+
+### Mechanistic vs. Statistical models
+- Mechanistic -> tries to model the realtion between input and output of a system by understanding and replicating the individ. components of the system and their interactions. They have tangible, physical aspects.
+- Statistical -> seeks only to describe the data, the realtion between observed input and output, without trying to replicate the real functioning of the system.
+
+### From data to model - how to build a simple one
+- Given the system you want to model and the data you collected about the behaviour of the system.
+- Given some knowledge you already have on the bahaiour (theory, data mining, etc.)
+- Choose a family of (statistical) models that you think well represents the system
+- Find out the optimal values of the parameters of the model given the data you collected.
+
+### Linear regression models
+- **y** is the output of the model, i.e., the observations you have collected.
+- **x** is the explanatory variable (regressor), a quantity the observations depend on.
+- Linear regression is an approach to modeling the relationship between **y** and **x**.
+
+### Overfitting
