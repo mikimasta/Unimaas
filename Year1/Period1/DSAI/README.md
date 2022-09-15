@@ -1,7 +1,7 @@
 # Introduction to Data Science & AI
 -----------------------------------
 
-## **Lecture 1** (5.09.2022, Pietro)
+# **Lecture 1** (5.09.2022, Pietro)
 
 > #### *_Sciences are primarily defined by their questions, not by their tools!_*
 
@@ -113,3 +113,120 @@ b. Express the knowledge generated at the previous point into a rule which could
 
 [x] exercises of type above
 
+---
+# Lecture 2 (Rachel)
+
+### The Turing Test
+
+The Turing test is a test of a machine's ability to exibit intelligent behaviour eqiuivalent or indistinguishable from that of a human.
+
+Problems with the Turing test:
+- Can improve chances of passing through psychological strategies
+- Doesn't test 'intelligence', just responses - chinese room problem
+- Humans can 'fail' to convince the judges they are not computers
+
+Advantages of the Turing test:
+- Objective notion of intelligence
+- Avoids discussion of internal processes and consciousness
+- Eliminates the bias in favor of living organisms
+
+Objections to the Turing test:
+- Bias toward purely symbolic problem solving task
+- Constraining machine intelligence to fit human mold
+	- Limited memory
+	- Error prone
+- Distraction from real-world problems
+
+> With that in mind, human-like behaviour can be and is useful:
+> - Entertainment industry
+>	- NPC's
+> - Human-like Bot Competitions
+> - Chatbots giving advice on websites
+
+### CAPTCHA
+Captcha is a reverse turing test - tries to pick out the humans from the machines. (getting worse and worse though)
+
+### Total Turing Test
+- Original test: No Physical interaction
+- Total Turing test:
+	- Includes a video signal so the interrogator can test the subject's perceptual abilities
+	- Pass Physical Object 'through the hatch'
+- Suggested additional components of AI:
+	- Computer vision: to percieve objects
+	- Robotics: to manipulate and move them
+- Completely pass as human:
+	- Ex Machina for example
+
+### More to AI than the Turing Test
+Views of AI fall into four categories:
+
+| Thinking humanly  | Thinking rationally  |
+|---|---|
+| *_Acting humanly_*  | *_Acting rationally_* |
+
+The Turing test tests the ones in bold, and they are more important than thinking.
+
+#### Thinking humanly: **cognitive modeling**
+- 1960's "cognitive revolution"
+	- information-processing psychology
+- Requires scientific data theories of internal activities of the brain
+- How to validate? Requires
+	1. Predicting and testing behaviour of human subjects
+	1. Direct identification from neurological data
+- Both approaches (Cognitive Science and Cognitive Neuroscience) are now distinct from AI.
+
+#### Thinking rationally: "laws of thought"
+- Aristotle: what are the correct arguments/thought processes
+- Greek schools developed various forms of *logic*:
+*notation* and *rules of derivation* for thoughts
+- Direct line through mathematics and philosophy to modern AI
+	- The logicist tradition in AI hopes to create intelligent systems using logic programming
+- Problems with approach:
+	- Not all intelligent behaviour is mediated by logical deliberation (us, humans)
+	- What is the **purpose of thinking**? What thoughts **should** i have out of all that i **could** have?
+#### Acting rationally
+-**Rational** behaviour: doing the right thing
+- The right thing: that which is expected to *maximize goal achievement, given the available information**
+- Doesn't necessarily involve thinking -> reactions/reflexes (reflex action in leg) and automatic behaviours (blinking)
+
+> **Rational programs**
+> - For any given class of environments and tasks, seek the program with best performance
+> - Caveat: it's never possible to create the perfect (best) program -> Computational limitations
+
+### Foundations of AI
+| Philosophy  | Logic, methods of reasoning, rationality  |
+| Mathematics  | probaility, formal representaion, computation  |
+| Economics  | utility, decision theory  |
+| Neuroscience  | physical substrate for mental activity  |
+| Psychology  | perception, motor control  |
+| CS  | programming, building fast computers  |
+| Control theory  | systems that maximize objective function over time  |
+| Linguistics  | knowledge representatiopn, grammar  |
+
+
+### State of the Art
+- Autonomous driving
+- Logistics planning 
+	- 91' Gulf War, US forces used AI logistics planning and scheduling program
+	- NASA MAPGEN (Mars exploration rovers)
+	- MEXAR2 (mission planning)
+- Spam fighting
+	- Learning algs classify over a billion messages as spam
+- Vacuum cleaning (iRobot)
+- Quiz show contestants! (Watson - IBM)
+
+### But AI can't (yet) do all:
+- Acting as a judge
+- General game playing
+- Beating us in soccer
+- Conversation successful with another person for an hour
+- Machine translation
+---
+### Exam checklist
+- Turing test
+	- What?
+	- Why?
+	- Pros/Cons
+- Thinking/Acting  Humanly/Rationally
+- Examples of what current AI can/can't do
+---
