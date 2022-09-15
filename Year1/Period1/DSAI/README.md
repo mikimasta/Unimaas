@@ -254,3 +254,6 @@ The Turing test tests the ones in italics, and they are more important than thin
 - Linear regression is an approach to modeling the relationship between **y** and **x**.
 
 ### Overfitting
+- Fitting model too complicated with respect to true model.
+- Easy to occur with high noise: the model starts describing the random error or noise in data instead of the underlying relationship - it starts to describe exceptions in the data (classification and the curse of dimensionality).
+![Overfitting](model.png)
