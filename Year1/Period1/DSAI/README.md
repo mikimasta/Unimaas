@@ -161,10 +161,9 @@ Captcha is a reverse turing test - tries to pick out the humans from the machine
 Views of AI fall into four categories:
 
 | Thinking humanly  | Thinking rationally  |
-|---|---|
 | *_Acting humanly_*  | *_Acting rationally_* |
 
-The Turing test tests the ones in bold, and they are more important than thinking.
+The Turing test tests the ones in italics, and they are more important than thinking.
 
 #### Thinking humanly: **cognitive modeling**
 - 1960's "cognitive revolution"
@@ -185,7 +184,7 @@ The Turing test tests the ones in bold, and they are more important than thinkin
 	- Not all intelligent behaviour is mediated by logical deliberation (us, humans)
 	- What is the **purpose of thinking**? What thoughts **should** i have out of all that i **could** have?
 #### Acting rationally
--**Rational** behaviour: doing the right thing
+**Rational** behaviour: doing the right thing
 - The right thing: that which is expected to *maximize goal achievement, given the available information**
 - Doesn't necessarily involve thinking -> reactions/reflexes (reflex action in leg) and automatic behaviours (blinking)
 
@@ -195,6 +194,7 @@ The Turing test tests the ones in bold, and they are more important than thinkin
 
 ### Foundations of AI
 | Philosophy  | Logic, methods of reasoning, rationality  |
+|---|---|
 | Mathematics  | probaility, formal representaion, computation  |
 | Economics  | utility, decision theory  |
 | Neuroscience  | physical substrate for mental activity  |
