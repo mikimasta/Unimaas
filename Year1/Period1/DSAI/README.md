@@ -379,9 +379,13 @@ Robotic agent:
 ---
 ### Exam checklist
 [x] What is an agent?
+
 [x] When is it rational? autonomous?
+
 [x] PEAS
+
 [x] Describing environments
+
 [x] Basic agent architectures
 ---
 # Lecture 6 (Data modelling - Linear Regression, Pietro)
