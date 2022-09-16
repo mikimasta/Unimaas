@@ -1,7 +1,7 @@
 # Introduction to Data Science & AI
 -----------------------------------
 
-# **Lecture 1** (5.09.2022, Pietro)
+# **Lecture 1** (5.09.2022, Pietro, DSAI 101)
 
 > #### *_Sciences are primarily defined by their questions, not by their tools!_*
 
@@ -114,7 +114,7 @@ b. Express the knowledge generated at the previous point into a rule which could
 [x] exercises of type above
 
 ---
-# Lecture 2 (Rachel)
+# Lecture 2 (AI 101, Rachel, 6.09.2022)
 
 ### The Turing Test
 
@@ -230,6 +230,160 @@ The Turing test tests the ones in italics, and they are more important than thin
 - Thinking/Acting  Humanly/Rationally
 - Examples of what current AI can/can't do
 ---
+# Lecture 3 (Exploratory data analysis - Fourier analysis/complex numbers, Pietro, 8.09.2022)
+### Exploratory data analysis 
+- Exploratory data analysis -> an approach to analyzing data sets to summarize their characteristics and start discovering interesting patterns/structure in data.
+- Results -> should not be taken as absolute truth, but as a starting point for the development of a scientific hypothesis and further study.
+- First thing to do is to explore the data and get a feeling about it:
+	- How are the data distributed/organized? (**visualize** your data!)
+	- Descriptive statistics (mean, median, range, st. deviation)
+	- Outliers?
+	- Anomalies?
+	- Missing values?
+	- Interesting things/structures? (unsupervised learning, clustering, principal components, etc.)
+### Visualize your data!
+- General principle -> display data as far as possible, show the original data and try not to obscure the design of the study!
+- Show as much data/information as possible!
+
+> *Show the data, don't conceal them.*
+
+### Critical/statistical thinking
+- Learn to look at features in the data.
+- You **must** learn to understand your data, look at them critically.
+- Look for features that will help you find the most suitable way to handle, process, and analyze those data.
+
+### Time series data
+- TS is a sequence of points -> successive measurements made over a time interval.
+- Normally represented as -> quantity/independent variable.
+- Independent variable is usually time.
+
+### Patterns in time series
+- Tend to come from repetition.
+- Need a different representation of the time series -> one that shows the oscillatory patters of a signal - its *_frequency_* content!
+
+### Fourier analysis
+- Study of the wat general functions may be represented or approximated by sums of simpler trigonometric functions (sin0 + cos0).
+- Time series can be interpreted as "functions".
+- Fourier analysis can be used to "decompose" time series into simple patterns (see point 1)
+- These building blocks (sin, cos) are **periodic functions** themselves, and can tell us about the oscillatory components/repetitive patterns in a time series.
+- Every (literally every possible shape) time-based pattern can be build with circles (FA)
+
+### Complex numbers
+- See notebook!;p
+---
+### Exam checklist
+- Complex numbers and their representation in the complex plane
+- Cartesian and polar form - plus transformations from one another
+- Operations with complex numbers
+- Exercises of type like student portal
+---
+# Lecture 4 (Agents, Rachel, 12.09.2022)
+### What is an agent?
+- Anything that can be vievew as **percieving** its **environment** through **sensors** and **acting** upon that environment through **actuators**
+- Operates *autonomously*
+- Humans, robots, softbots, thermostats etc.
+- Abstractly [f: P* -> A]
+
+### Examples
+Human agent:
+- Sensors?
+	- eyes, ears
+- Actuators?
+	- hands, legs, mouth
+
+Robotic agent:
+- Sensors?
+	- cameras and infrared range finders
+- Actuators?
+	- various motors
+> Mars exploration rovers, Air Traffic Control (OASIS)
+
+### Rational agents
+- Should strive to "do the right thing", based on what it can percieve and the actions it can perform
+- The right action -> the one that will cause the agent to be the **most succesful**
+
+- Performance measure: An objective criterion for success
+	- PM of a vacuum-cleaner agent:
+		- amount of dirt cleaned
+		- cleanness of the environment
+		- amount of time taken
+		- amount of electricity consumed
+		- amount of noise generated etc.
+
+- For each perception sequence agent should select an action that maximizes its perfomance measure.
+
+- An agent is **autonomous** if its behaviour is determined by its own experience.
+
+### PEAS - Performance measure, Environment, Actuators, Sensors
+- First, specify the setting for intelligent agent design
+> Example:
+> Automated taxi driver:
+> - **PM**: Safe, fast, legal, comfortable, maximize profits
+> - **Environment**: Roads, other traffic, pedestrians, customers
+> - **Actuators**: Steering wheel, accelerator, brake, signal, horn
+> - **Sensors**: Cameras, speedometer, GPS, engine sensors, keyboard
+
+### Environment types:
+- **Fully observable** -> sensors give it access to the complete state of the environment at each point in time
+	- chess, checkers
+- **Partially observable**
+	- poker, stratego
+- **Deterministic** -> fully determined by the current state and action executed
+	- chess, stratego
+- **Stochastic**
+	- dice roll, backgammon, bow n arrow, roulette
+- **Episodic** -> divided into atomic "episodes", single action without using memory
+	- image analysis, part picking
+- **Sequential** 
+	- game of chess, poker
+- **Static** -> Environment is unchaned while agent is deliberating
+	- game of chess, crossword puzzle
+- **Dynamic**
+	- soccer, taxi driver
+- **Semidynamic** -> Environment itself does not change with time but the performance score does
+- **Discrete** -> A limited number of distinct, clearly defined percepts and actions
+	- chess, poker, backgammon
+- **Continuous**
+	- taxi driver, soccer, image processing
+- **Single agent** -> An agent operating by itself in a given environment
+	- crossword puzzle, part picking
+- **Multi agent**
+	- chess, soccer, taxi driver
+
+> - The environment type largely determines the agent design
+> - Real world is: Partially Observable, Stochastic, Sequential, Dynamic, Continuous, Multi-Agent
+
+- **Known** vs **Unknown**
+	- The environment of a poker game is **known** (rules)
+	- A video game can be fully observable, but you may not know the result of an action until you try.
+
+### Agent types
+- Four basic types:
+	1. Simple reflex agents
+		- action based solely on current percept
+		- implemented by conditional statements (if-then)
+		- only works when ENV is fully observable, otherwise -> infinite loops
+	1. Model-based agents
+		- to tackle partially observable ENV
+		- update state over time using world knowledge
+	1. Goal-based agents
+		- needs a goal to know which situations are desirable
+		- typically in search and planning research
+		- *future is taken into account*
+		- more flexible; goals are represented explicitly and can be changed
+	1. Utility-based agents
+		- goals can be reached in different ways
+		- Improves on goals:
+			1. select between conflicting goals
+			1. select between several goals based on likelihood of success
+---
+### Exam checklist
+[x] What is an agent?
+[x] When is it rational? autonomous?
+[x] PEAS
+[x] Describing environments
+[x] Basic agent architectures
+---
 # Lecture 6 (Data modelling - Linear Regression, Pietro)
 ### Data modeling - mathematical modeling
 - A model is a mathematical representation of a system. An approximation of reality.
@@ -240,7 +394,7 @@ The Turing test tests the ones in italics, and they are more important than thin
 
 ### Mechanistic vs. Statistical models
 - Mechanistic -> tries to model the realtion between input and output of a system by understanding and replicating the individ. components of the system and their interactions. They have tangible, physical aspects.
-- Statistical -> seeks only to describe the data, the realtion between observed input and output, without trying to replicate the real functioning of the system.
+- Statistical -> seeks only to describe the data, the relation between observed input and output, without trying to replicate the real functioning of the system.
 
 ### From data to model - how to build a simple one
 - Given the system you want to model and the data you collected about the behaviour of the system.
@@ -265,12 +419,12 @@ The Turing test tests the ones in italics, and they are more important than thin
 > ![Overfitting2](model2.png)
 
 ### Estimation and validation go together
-- A large enough model can reproduce a measured output arbitrarily well. We must verify that the model is relevant for other data - data that were not used for estimation (training the model), but were collected, but were gathered from the same system.
+- A large enough model can reproduce a measured output arbitrarily well. We must verify that the model is relevant for other data - data that were not used for estimation (training the model), but were collected, gathered from the same system.
 
 > ![plot](plot.png)
 ---
 ### Exam checklist
-- Given the set of correlated var x and y, know hot wo compute the linear equation of the regression line through the data (y = ax + b)
+- Given the set of correlated var x and y, know how to compute the linear equation of the regression line through the data (y = ax + b)
 - Know how to solve exercises as the one given at the end of the lecture.
 
 
