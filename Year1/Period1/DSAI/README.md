@@ -161,6 +161,7 @@ Captcha is a reverse turing test - tries to pick out the humans from the machine
 Views of AI fall into four categories:
 
 | Thinking humanly  | Thinking rationally  |
+|---|---|
 | *_Acting humanly_*  | *_Acting rationally_* |
 
 The Turing test tests the ones in italics, and they are more important than thinking.
@@ -223,12 +224,14 @@ The Turing test tests the ones in italics, and they are more important than thin
 - Machine translation
 ---
 ### Exam checklist
-- Turing test
-	- What?
-	- Why?
-	- Pros/Cons
-- Thinking/Acting  Humanly/Rationally
-- Examples of what current AI can/can't do
+[x] Turing test
+- What?
+- Why?
+- Pros/Cons
+
+[x] Thinking/Acting  Humanly/Rationally
+
+[x] Examples of what current AI can/can't do
 ---
 # Lecture 3 (Exploratory data analysis - Fourier analysis/complex numbers, Pietro, 8.09.2022)
 ### Exploratory data analysis 
@@ -388,7 +391,79 @@ Robotic agent:
 
 [x] Basic agent architectures
 ---
-# Lecture 6 (Data modelling - Linear Regression, Pietro)
+# Lecture 5 (Data mining - Pattern Recognition, Anna, 13.09.2022)
+### **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining
+- CRISP-DM
+![crisp](crisp.png)
+
+### Data mining
+- Data mining = identifying patterns in data
+- Patterns are everywhere!
+	- Traffic patterns
+	- Ads
+	- Human genome
+	- Service to customers
+
+### Problems suitable for data mining
+- require knowledge-based decisions
+- have a changing ENV
+- accesible, sufficient, and relevant data
+- high payoff for the right decisions
+- have sub-optimal current methods
+- privacy and ethics considerations important if personal data involved! (GDPR)
+
+### Types of learning
+- **Supervised learning**
+> Trains a model on known input and output so that it can predict future outputs
+- **Unsupervised learning**
+> Finds hidden patterns or intrinsic structures in data
+- **Reinforcement learning**
+> Rewarding desired behaviours, punishing undesired ones, trial and error
+
+### Data mining - tasks
+- Anomaly detection (outliers, change, deviaation detection)
+- Association rule learning (dependency modelling)
+- Clustering
+- Regression
+- Summarization
+
+> ![ML](ml.png)
+
+### Distance measures -> they help us understand the data
+- A distance measure should fulfill 4 conditions:
+	- d(P,Q) >= 0
+	- d(P,Q) = 0 <=> P = Q
+	- d(P,Q) = d(Q,P)
+	- d(P,Q) <= d(P,W) + d(W,Q) (triangle inequality)
+### Types of distance
+- **Euclidean distance**
+> ![eudis](eu.png)
+- **Manhattan (Absolute) distance**
+> ![manhattan](manh.png)
+- **Infinity distance**
+> ![infinity](inf.png)
+- **Cosine distance**
+> ![cosine](cos.png)
+- **Edit distance**
+> ![edit](edit.png)
+---
+### Exam checlist
+
+[x] Problems suitable for data mining
+
+[x] Learning types
+
+[x] Data mining tasks
+
+[x] Definition of a distance measure (4 coniditions)
+
+[x] Definitions of Euclidean distance, absolute distance, infinity distance, edit distance
+
+[x] Given two time series: know how to compute euclidean, absolute, infinity, edit distances
+
+[x] Exercises of type homework (see slides)
+---
+# Lecture 6 (Data modelling - Linear Regression, Pietro, 15.09.2022)
 ### Data modeling - mathematical modeling
 - A model is a mathematical representation of a system. An approximation of reality.
 - A system is a set of things working together as parts of a mechanism or network; a complex whole
@@ -428,8 +503,9 @@ Robotic agent:
 > ![plot](plot.png)
 ---
 ### Exam checklist
-- Given the set of correlated var x and y, know how to compute the linear equation of the regression line through the data (y = ax + b)
-- Know how to solve exercises as the one given at the end of the lecture.
+[x] Given the set of correlated var x and y, know how to compute the linear equation of the regression line through the data (y = ax + b)
+
+[x] Know how to solve exercises as the one given at the end of the lecture.
 
 
 
