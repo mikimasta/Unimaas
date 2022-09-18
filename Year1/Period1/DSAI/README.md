@@ -232,6 +232,7 @@ The Turing test tests the ones in italics, and they are more important than thin
 [x] Thinking/Acting  Humanly/Rationally
 
 [x] Examples of what current AI can/can't do
+
 ---
 # Lecture 3 (Exploratory data analysis - Fourier analysis/complex numbers, Pietro, 8.09.2022)
 ### Exploratory data analysis 
@@ -390,6 +391,7 @@ Robotic agent:
 [x] Describing environments
 
 [x] Basic agent architectures
+
 ---
 # Lecture 5 (Data mining - Pattern Recognition, Anna, 13.09.2022)
 ### **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining
@@ -462,6 +464,7 @@ Robotic agent:
 [x] Given two time series: know how to compute euclidean, absolute, infinity, edit distances
 
 [x] Exercises of type homework (see slides)
+
 ---
 # Lecture 6 (Data modelling - Linear Regression, Pietro, 15.09.2022)
 ### Data modeling - mathematical modeling
