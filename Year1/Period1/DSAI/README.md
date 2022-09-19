@@ -509,6 +509,52 @@ Robotic agent:
 [x] Given the set of correlated var x and y, know how to compute the linear equation of the regression line through the data (y = ax + b)
 
 [x] Know how to solve exercises as the one given at the end of the lecture.
+---
+# Lecture 7 (Search, Anna, 19.09.2022)
+### Search
+- Many AI approaches rely on search to find the 'best' solution to the problem.
+- By searching through the possible solutions we can find the solution we need.
 
+### Trees
+- Searching a tree
+	- **Breadth first search**
+		- Look at the root, if not solution...
+		- Look at the children, if not solution...
+		- Look at the grandchildren...
+		- etc.
+	- **Depth first search**
+		- Go as deep as you can with each path, until we reach a leaf, then backtrack up the tree, repeat.
+> ![search](search.png)
 
+### Game Tree
+- Search depth *_d_* (ex chess.com!)
+	- Number of state transitions (moves) from the root to the considered state position
+- Branching factor *_b_*
+	- Average number of succesor nodes (moves)
 
+### Adversary search (MiniMax, Von Neumann)
+- Two (or more) players, each trying to maximize their expectations (acting **rationally**)
+- Player 1 is called MAX
+	- Obtain the maximum result
+	- Minimize that of the opponent
+- Player 2 is called MIN
+	- Obtain the minimum result
+	- Maximize that of the opponent
+### Heuristic search
+- Truncate the game tree (limited search depth)
+- Use a (static heuristic) evaluation function at the leaves
+- Minimax (with pruning) on the reduced game tree
+- Playing is solving a sequence of these game trees
+---
+### Exam checklist
+[x] Tree terminology
+
+[x] Using trees for search
+
+[x] Breadth/depth first search
+
+[x] Minimax search
+
+[x] Pruning
+
+---
