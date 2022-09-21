@@ -558,3 +558,46 @@ Robotic agent:
 [x] Pruning
 
 ---
+# Lecture 8 (Logic, Rachel, 20.09.2022)
+### PROLOG - a programming language with built-in search
+- In PROLOG we don't need to program the computer to build and search the tree.
+- This is built-in to the interpreter.
+- Instead we just need to define the problem in a way which it understands.
+
+### Entailment
+- Entailment means that one thing **follows from** another
+- KB |= a
+- Knowledge base KB entails sentence a *if and only if*, in all worlds where the KB is true, a is true
+> - Different from all the logical operators we seen so far
+> - Other operators can be true in one world and false in another
+> - Entailment is different. Either it entails in all worlds, or none.
+
+> Example
+> ![entail](ent.png)
+
+### Validity and Satisfiability
+A sentence is **valid** if it is true in *all* models (tautologies)
+
+> True, A or not(A), A implies A
+
+A sentence is **satisfiable** if it is true in *some* model 
+
+> A or B, C
+
+A sentence is **unsatisfiable** if it is always false (contradictions)
+
+> A and not(A)
+---
+### Exam checklist
+[x] What is knowledge base and inference?
+
+[x] What is PROLOG?
+
+[x] Basic operators and concepts of logic:
+- and, or, not, bijection, implication
+- entailment
+- inference
+- validity
+- satisfiability
+
+---
