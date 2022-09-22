@@ -509,6 +509,7 @@ Robotic agent:
 [x] Given the set of correlated var x and y, know how to compute the linear equation of the regression line through the data (y = ax + b)
 
 [x] Know how to solve exercises as the one given at the end of the lecture.
+
 ---
 # Lecture 7 (Search, Anna, 19.09.2022)
 ### Search
@@ -601,3 +602,34 @@ A sentence is **unsatisfiable** if it is always false (contradictions)
 - satisfiability
 
 ---
+# Lecture 9 (Simulation, Anna, 22.09.2022)
+### What are simulations?
+- Simulations are in general approxiations of the true behaviour of the model (and the system the model represents)
+
+### Monte Carlo simulations
+- They are simulations: they need an underlying model
+- The model is still deterministic, the unceirtanty is on the input to the model
+- Use it to generate statistical knowledge about the output, the model, and its parameters
+
+### The Bootstrap
+- A particular type of Monte Carlo simulation
+- Very useful to quantify the uncertainty assosiated with a given estimator or statistical method
+##### Bootstrapping
+- Take a sample with replacement from the original data (the same data point can be selected more than once
+- Compute the statistics
+- Repeat a large amount of times (1000 at least), assuming each sample is drawn independently of the other samples
+- Compute the confidence interval from bootstrap distribution by means of bootstrap percentile method
+---
+### Exam checklist
+[x] Uniform distribution
+
+[x] Monte Carlo simulations
+
+[x] Bootstrapping with replacement
+
+[x] Exercises of the type given at slides
+
+---
+
+
+
