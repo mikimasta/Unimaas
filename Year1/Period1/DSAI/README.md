@@ -630,6 +630,130 @@ A sentence is **unsatisfiable** if it is always false (contradictions)
 [x] Exercises of the type given at slides
 
 ---
+# Lecture 10 (Learning, Rachel, 26.09.2022)
+### Recap: Agent Types
+- Four basic types in order of increasing generality:
+	1. Simple reflex agents
+	1. Model-based agents
+	1. Goal-based agents
+	1. Utility-based agents
+- All can be turned into learning agents!!!
+
+### Learning Agents
+- **Performance element**: selecting actions based on percepts
+	- Corresponds to the previous agent programs
+- **Learning element**: introduce improvements in performance element
+	- *Critic* provides feedback on agents performance based on fixed performance standard
+- **Problem generator**: suggest actions that will lead to new and informative experiences
+	- Exploration vs. exploitation
+
+> ![lagent](lagent.png)
+
+### Learning element
+- Design of a learning element is affected by:
+	- Which components of the performance element are to be learned
+	- What feedback is available to learn these
+	- What representation is used for the components
+- Type of feedback:
+	- **Supervised learning** -> correct answers for each example
+	- **Unsupervised learning** -> correct answers not given
+	- **Reinforcement learning** -> occasional rewards
+
+### Decision trees for Classification
+- A decision tree is where:
+	- Each internal node tests an attribute
+	- Each branch corresponds to an attribute value
+	- Each leaf node is labelled with a class (class node)
+
+> ![tree](tree.png)
+
+### When to consider Decision Trees
+- Each instance consists of an attribute with discrete values
+- The classification is over discrete values
+- It is okay for the training data to contain errors - depending on the learning algorithm decision trees can be robust to classification errors in the training data.
+- It is okay for the training data to contain missing values – decision trees can be used even if instances have missing attributes.
+
+### Decision Tree Basic Algorithm
+1. A ← the “best" decision attribute for a node N.
+2. Assign A as decision attribute for the node N.
+3. For each value of A, create new child of node N.
+4. Sort training examples to leaf nodes.
+5. IF training examples perfectly classified, THEN STOP, ELSE iterate over new leaf nodes.
+
+### Entropy
+- Measures the **impurity** or unpredictability of observations in the system. (measure of disorder)
+- Between **0** and **1**
+- Formula
+> ![entropy](entropy.png)
+- Example
+> ![example](example.png)
+
+### Information Gain
+- **Information Gain** is the expected reduction in entropy caused by partitioning the instances from S according to a given attribute.
+- Formula 
+> ![informationgain](ig.png)
+
+---
+### Exam checklist
+[x] How to adjust an agent to turn it into a learning agent (theory)
+
+[x] Calculating logs of all bases on a calc with only log10 and ln
+
+[x] Calculating Entropy
+
+[x] Calculating Information Gain
+
+[x] Building a decision tree by hand
+
+[x] Turning real valued data into discrete classes
+
+[x] The importance of a test set when learning
+
+---
+# Lecture 11 (Game Theory, Pietro, 27.09.2022)
+### Game Theory
+- Game theory is a branch of applied mathematics which studies the individual decisions of a subject, called a player, in situations of strategic interaction (or conflict) with other players.
+- Objective for each player: maximize the personal gains (or minimize personal cost)
+- It is the study of mathematical models of conflict and cooperation between intelligent, rational decision-makers
+
+- Rational decision maker: hypothetical person that will always pick the option they predict will be the best for themselves
+- John Von Neumann (1928) invented zero-sum games: One player's gain means the other player’s loss (two player games)
+- Today, game theory applies to a wide range of behavioral relations, and is now an umbrella term for the science of logical decision making in humans, animals, and computers
+### Useful definitions
+- **Actions (strategies)**
+	- All the possible things a player can do in the game
+- **Payoff**
+	- The benefit for a player resulting from the actions /  strategies taken by all players together
+- **(2 players) Payoff (bi)matrix**
+	- A (bi)matrix consisting of the payoffs for both players for all action/strategy pairs (so we need to have prior knowledge about the problem)
+### Zero-sum games
+- Sum of all the net winnings is equal to zero
+
+### Dominated strategies
+- For a specific player, a strategy is dominated by a second strategy if the second strategy is always at least as good and sometimes better regardless of what the opponent does
+- A dominated strategy can be eliminated immediately from further consideration
+
+### Minimax criterion
+- Player 1 aims to maximize their minimum payoff (to player 1)
+- Player 2 aims to minimize the maximum payoff to player 1
 
 
+### Saddle point 
+- The end product of this line of reasoning is that each player should play in such a way as to minimize their maximum losses whenever the resulting choice of strategy cannot be exploited by the opponent to then improve their position 
+- This so-called minimax criterion is a standard criterion proposed by game theory for selecting a strategy in a zero-sum game
+- In terms of the payoff matrix, it implies that player 1 should select the strategy whose minimum payoff (to player 1) is largest, whereas player 2 should choose the one whose maximum payoff to player 1 is the smallest
 
+### Non-zerosum games: Nash equilibrium
+- Each player does the best for themselves, but this might also be good for tou group
+> Beautiful Mind, Nash comes up with this idea: https://www.youtube.com/watch?v=2d_dtTZQyUM
+---
+### Exam checklist
+[x] Solving games by dominated strategies
+
+[x] Solving games by minimax criterion
+
+[x] Stable/unstable solutions
+
+[x] Finding a Nash equilibrium in a game
+
+---
