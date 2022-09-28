@@ -276,10 +276,14 @@ The Turing test tests the ones in italics, and they are more important than thin
 - See notebook!;p
 ---
 ### Exam checklist
-- Complex numbers and their representation in the complex plane
-- Cartesian and polar form - plus transformations from one another
-- Operations with complex numbers
-- Exercises of type like student portal
+[x] Complex numbers and their representation in the complex plane
+
+[x] Cartesian and polar form - plus transformations from one another
+
+[x] Operations with complex numbers
+
+[x] Exercises of type like student portal
+
 ---
 # Lecture 4 (Agents, Rachel, 12.09.2022)
 ### What is an agent?
@@ -396,6 +400,7 @@ Robotic agent:
 # Lecture 5 (Data mining - Pattern Recognition, Anna, 13.09.2022)
 ### **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining
 - CRISP-DM
+
 ![crisp](crisp.png)
 
 ### Data mining
@@ -423,7 +428,7 @@ Robotic agent:
 > Rewarding desired behaviours, punishing undesired ones, trial and error
 
 ### Data mining - tasks
-- Anomaly detection (outliers, change, deviaation detection)
+- Anomaly detection (outliers, change, deviation detection)
 - Association rule learning (dependency modelling)
 - Clustering
 - Regression
@@ -737,7 +742,6 @@ A sentence is **unsatisfiable** if it is always false (contradictions)
 - Player 1 aims to maximize their minimum payoff (to player 1)
 - Player 2 aims to minimize the maximum payoff to player 1
 
-
 ### Saddle point 
 - The end product of this line of reasoning is that each player should play in such a way as to minimize their maximum losses whenever the resulting choice of strategy cannot be exploited by the opponent to then improve their position 
 - This so-called minimax criterion is a standard criterion proposed by game theory for selecting a strategy in a zero-sum game
@@ -757,3 +761,4 @@ A sentence is **unsatisfiable** if it is always false (contradictions)
 [x] Finding a Nash equilibrium in a game
 
 ---
+
