@@ -761,4 +761,42 @@ A sentence is **unsatisfiable** if it is always false (contradictions)
 [x] Finding a Nash equilibrium in a game
 
 ---
+# Lecture 12 (Information Retrieval, Anna, 29.09.2022)
+### Information Retrieval
+- IR is finding material of an unstructured nature that satisfies an information need from within large collections
+	- we search
+	- email search
+	- searching your laptop
+	- corporate knowledge bases
+	- legal information retrieval (decision taking, precedens)
+### Basic assupmtions, terms
+- **Collection**: a set of documents, assume it is static
+
+- **Goal**: Retriever documents with information that is relevant to the user's information need and helps the user complete a task
+
+- **Precision**: Fraction of retreived docs that are relevant to _information need_
+
+- **Recall**: Fraction of relevant docs in collection that are retrieved
+
+> Precision / Recall trade-off -> Can only increase both to a certain level, then think of what do you need
+
+### The classic search model
+
+> ![sm](sm.png)
+
+---
+### Exam checklist
+[x] Structured vs unstructured data
+
+[x] Page rank algorithm
+
+[x] Working with term-document matrices
+
+[x] Posting lists, building them from documents, simple operations with tem (AND, OR)
+
+[x] Ordering queries efficiently
+
+---
+
+
 
