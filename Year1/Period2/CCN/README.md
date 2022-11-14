@@ -40,3 +40,130 @@
 				- Temporal
 				- Parietal
 				- Occipital
+---
+# Lecture 2 - Checklist
+
+- Brain evolution
+	- Brain size to body size ratio
+	- Brain size increase in hominids
+	- Bigger brains
+		- Number of neurons
+		- Arborization of dendrites
+		- Number of synapses
+	- Radial Unit Hypothesis
+		- Symmetrical & asymmetrical division
+		- Radial glia cells & radial migration
+		- Radial unit & cortical column
+		- Inside-out formation of the cortex
+		- Ventricular zone, subventricular zone, intermediate zone
+		- Cortical plane, marginal zone
+	- Synaptogenesis
+	- Synapse elimination/pruning
+	- Myelination
+		- Differential timing in human development
+	- Ontogenesis = phylogenesis
+	- Brain plasticity
+		- Learning
+		- Reorganization
+			- Phantom limbs
+- Basic Genetics
+	- Chromosomes
+	- Genes
+	- DNA
+	- Genotype & Phenotype
+	- Recombination and cross-over
+	- Mutation
+- Genetic Algorithms
+	- Genotype string & individuals
+	- Populations
+	- Fitness value/function
+	- Reproduction
+		- Cross-over
+		- Inversion
+		- Mutation
+	- Selection strategies
+		- Elitist
+		- Roulette wheel
+		- Tournament
+		- Pros and Cons
+- GA: Pros and Cons
+---
+# Lecture 3 - Checklist
+- Scales of analysis in the brain
+	- Macroscale
+		- Lobes
+		- Brodmann areas
+	- Mesoscale
+		- Circuits
+		- Cortical columns
+		- Cortical layers
+	- Microscale
+		- Neurons
+			- Dendrites
+			- Dendritic spines
+			- Axons
+			- Axon hillock
+			- Terminal boutons
+		- Glia
+			- Astrocytes
+			- Oligodendrocytes
+			- Schwann cells
+			- Microglia
+	- Nanoscale
+		- Synapses
+		- Neurotransmitters
+- Neuron resting potential
+	- Cell membrane
+	- Intracellular & Extracellular
+	- Membrane potential: about -70mV
+	- Ion concentrations at rest (intra and extra cellular)
+		- Sodium (Na+)
+		- Chloride(Cl-)
+		- Potassium (K+)
+		- Negatively charged proteins (A-)
+	- Concentration pressure
+	- Electrostatic pressure
+	- Ion channels
+		- Non-gated
+		- Voltage-gated
+	- Na/K pump
+- Graded post-synaptic potentials
+	- EPSP: depolarize
+	- IPSP: hyperpolarize
+	- Temporal summation
+	- Spatial summation
+- Action potential
+	- Threshold potential
+	- Order of ion channels opening and closing
+		- 1st Na+
+		- 2nd K+
+	- Direction and times of flow
+	- Refractory period
+		- Absolute
+		- Realitive
+	- Propagation
+		- Myelination
+		- Nodes of Ranvier
+		- Saltatory conduction
+	- Synapses
+		- Electrical (sometimes) & Chemical (mostly)
+		- Pre-synaptic
+		- Post-synaptic
+		- Ca+
+		- Synaptic vesicles
+		- Exocytosis
+		- Synaptic cleft
+		- Receptors
+	- Neurotransmitters
+		- Acetylocholine: brain, neuromuscular junction
+		- Monoamines
+			- Dopamine: pleasure, addiction
+			- Norepinephrine: arousal, wakefullness
+			- Epinephrine: periphery
+			- Serotonin: sleep, eating
+		- Amino acid
+			- Glutamate
+				- Main brain excitatory
+			- GABA
+				- Main brain inhibitory
+---

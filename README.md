@@ -6,5 +6,9 @@
 		- Introduction to DSAI
 		- Introduction to CS
 		- Discrete Mathematics
+	- **Period 2**
+		- Computational and Cognitive Neuroscience
+		- CS 2
+		- Calculus
 
 > This file will be updated when the next period begins
