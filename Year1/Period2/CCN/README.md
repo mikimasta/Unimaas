@@ -1,0 +1,42 @@
+# Lecture 1 - Checklist
+
+- Nervous system (NS)
+	- Central NS
+	- Peripheral NS
+		- Somatic
+		- Autonomic
+	- Neuroanatomy
+		- Planes, Sections
+			- Saggital
+			- Coronal
+			- Transverse/Axial
+		- Sides, Directions
+			- Dorsal
+			- Ventral
+			- Rostral
+			- Caudal
+			- Medial
+			- Lateral
+		- White matter
+		- Grey matter
+		- Nuclei
+		- Hemispheres
+		- Ventricles
+		- Brainstem
+			- Hindbrain
+				- Medulla, Cerebellum, Pons
+		- Diencephalon
+			- Thalamus
+			- Hypothalamus
+		- Telencephalon
+			- Limbic system
+			- Basal ganglia
+			- Cerebral cortex
+				- Gyric & sulci
+				- Cortical layers
+				- Brodmann's areas
+			- Lobes & basic functions
+				- Frontal
+				- Temporal
+				- Parietal
+				- Occipital
