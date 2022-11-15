@@ -167,3 +167,83 @@
 			- GABA
 				- Main brain inhibitory
 ---
+# Lecture 4 - Checklist
+- Memory
+	- Encoding
+		- Acquisition
+		- Consolidation
+	- Storage
+	- Retrieval
+- Types of Memory
+	- Long-term memory
+		- Declarative (explicit) memory
+			- Episodic memory
+			- Semantic memory
+		- Non-declarative (implicit) memory
+			- Procedural memory
+			- Priming
+	- Short-term memory
+		- Sensory memory
+			- Iconic memory
+			- Echoic memory
+		- Working memory
+	- Atkinson's & Shiffrin's modal model
+		- Attention & Rehearsal
+	- Baddeley's working memory model (WM)
+		- Phonological loop
+		- Visuospatial sketchpad
+	- Free recall experiments
+		- Primacy effect
+		- Recency effect
+	- Constructive memory
+		- Prior experience
+		- Encoding specitifity
+		- Flashbulb memories
+	- Anatomy of memory
+		- Hippocampus
+			- Place cells
+		- Entorhinal cortex
+			- Grid cells
+		- Other parts of cortex
+		- Standard consolidation theory (Squire)
+- Memory deficits
+	- Amnesia
+		- Anterograde
+		- Retrograde
+			- Ribot's law
+		- Alzheimer's disease
+	- Hebbian learning
+		- Hebb's rule
+	- LTP / LTD
+		- Synapse strenghtening and weakening
+- Types of learning
+	- Supervised learning
+	- Unsupervised learning
+	- Reinforcement learning
+- Learning over different timescales
+	- Developmental learning
+	- Behavioral learning
+	- Evolutionary learning
+- Artificial Neural Networks
+	- Units/Nodes
+	- Connection weights
+	- Activation function
+	- Layers
+	- Bias node
+	- Types of general structure
+		- Fully connected
+		- Feed-forward
+		- Recurrent
+	- Perceptron
+		- Perceptron weight learning rule
+		- Linear separability
+		- Multi-layer perceptron
+			- Hidden layers
+			- Back-propagation rule
+				- Weight changes for hidden layers
+			- Pros and Cons
+		- Deep learning
+			- Many layers, back-prop
+			- Convolutional deep neural nets, analogous to human visual system
+
+ 
