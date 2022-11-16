@@ -245,5 +245,66 @@
 		- Deep learning
 			- Many layers, back-prop
 			- Convolutional deep neural nets, analogous to human visual system
-
+---
+# Lecture 5 - Checklist
+- Visible light spectrum
+	- Longer wavelengths (red)
+	- Shorter wavelengths (blue)
+- Eye
+	- Iris, pupil, cornea, lens, retina
+	- Optic nerve
+	- Inverted projection on retina
+- Retina
+	- Blind spot
+	- Fovea
+	- Receptors
+		- Rods
+		- Cones
+			- Short wavelength
+			- Medium wavelength
+			- Long wavelength
+		- Ganglion cells
+		- Binolar cells, horizontal cells, Amacrine cells
+			- Lateral inhibition & contrast enhancement
+- Visual system
+	- Eye
+	- Optic chiasm
+	- LGN
+	- Visual cortex
+		- V1
+			- Simple cells
+			- Complex cells
+			- End-stopped cells
+			- Orientation columns
+		- Contralateral and upside-down projection
+		- Receptive fields
+			- Center-surround
+		- Retinotopy
+- Visual pathways
+	- Eye to V1, V2
+		- Magnocellular
+		- Parvocellular
+		- Koniocellular
+	- After V2
+		- Dorsal (where or how)
+		- Ventral ('what')
+		- Color and brightness
+- Perception
+	- Perception is a unified whole (binding problem)
+	- Multiple pathways for visual perception
+		- Ventral stream
+			- What
+			- Perception for identification
+		- Dorsal stream
+			- Where 
+			- Perception for action
+- Computational problems in perception
+	- Object constancy
+	- View-invariant recognition
+	- Shape encoding
+	- Grand-mother cell vs Ensemble coding
+- Mind reading
+	- Encoding and Decoding
+	- Pattern recognition
+- Vicarious AI & deep learning
  
