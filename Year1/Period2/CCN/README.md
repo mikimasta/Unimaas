@@ -307,4 +307,39 @@
 	- Encoding and Decoding
 	- Pattern recognition
 - Vicarious AI & deep learning
- 
+---
+# Lecture 6 - Checklist
+- Functions of Attention
+	- Vigilance
+	- Search
+	- Selective attention
+	- Divided attention
+- Signal detection theory
+	- Sensitivity, specificity
+	- Hit, Miss, False alarm, Correct rejection
+- Search
+	- Targets and distracters
+	- Array size effect
+	- Feature (pop-out) search, conjunction search
+	- Feature integration theory
+	- Similarity theory
+	- Guided search theory
+- Selective Attention
+	- Cocktail party problem
+	- Dichotic listening task
+	- Posner cuing task
+	- Early filtering, late filtering, attenuation theory
+	- Voluntary attention, reflexive attention, overt/covert attention
+- Anatomy of attention
+	- Cortex: Posterior parietal, superior prefrontal, temporo-parietal, ventral prefrontal
+	- Dorsal and Ventral Frontopariental attention networks
+- Attention deficits
+	- ADHD
+	- Change blindness
+	- Neglect
+- Automatic and controlled processes
+	- Automatization
+	- Practice effect
+	- Stroop effect
+- Attentive robots
+- Social robots
